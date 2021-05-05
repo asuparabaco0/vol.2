@@ -1,0 +1,269 @@
+*{
+  /* padding,borderが要素の中に入る */
+  box-sizing:border-box;
+}
+ul{
+  /* リストの・を消す */
+  list-style: none;
+  margin:0;
+}
+
+h1,h2,h3,h4,h5,h6,p,span,button{
+  margin:0;
+  padding:0;
+  font-weight:normal;
+}
+
+a{
+  color:inherit; 
+  text-decoration:none;   
+}
+
+body{
+  
+  color:#555;
+  margin:0;
+  line-height:1.6;
+}
+
+.first-v-btn{
+  width:200px;
+  height: 50px;
+  text-align: center;
+  font-weight: bold;
+  border:none;
+  border-radius: 5px;
+  background: linear-gradient(-90deg, #283C86, #06BEB6);
+  box-shadow: 0px 5px #070707;
+  font-weight: bold;
+  font-size:15px;
+  color:#FFF;
+  margin-top:200px;
+}
+
+header{
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  padding:0 20px;
+  color:#fff;
+  background:inherit;
+  position:absolute;
+  z-index:10;
+}
+.header-logo{
+  padding:20px 0;
+  font-weight:bold;
+  font-size:18px;
+
+}
+.header-nav ul{
+  display: flex;
+  padding: 22px 0;
+}
+
+.header-nav li{
+  margin-left: 55px;
+  font-size: 15px;
+}
+
+footer{
+  background: #191919;
+  height: 50px;
+}
+
+.company-info{
+  text-align: center;
+  line-height: 50px;
+  font-weight: bold;
+  font-size: 12px;
+  color: #fff;
+}
+#first-v{
+  height:770px;
+  background-image:url("../img/kirakira.png");
+  background-size:cover;
+  color: #fff;
+  position:relative;
+}
+
+.first-v-wrap{
+  padding:285px 0 255px;
+  margin:0 auto;
+  width:250px;
+  text-align: center;
+}
+
+.first-v-title::after{
+  display:block;
+  content:"";
+  width:100px;
+  margin:20px auto 0;
+  border-top:1px solid #fff;
+}
+
+.fa-door-open {
+  padding-right:4px;
+}
+#entry{
+   background-color: #fff;
+}
+
+.entry-wrap{
+  text-align:center;
+  padding: 175px 0;
+  margin:0 auto;
+  width:400px;
+}
+
+#entry > h1{
+  font-size: 28px;
+  font-weight: bold;
+  padding-bottom: 55px;
+}
+
+#entry .first-v-btn{
+  width: 420px;
+  
+}
+
+.title-b{
+  font-weight: bold;
+}
+
+.about-title::before{
+  display: inline-block;
+  width:30px;
+  margin-right:20px;
+  border-top: 1px solid #191919;
+  content:"";
+}
+
+.about-title::after{
+    display: inline-block;
+    width:30px;
+    margin-left:20px;
+    border-top:1px solid #191919;
+    content:"";
+}
+
+.title{
+  display:flex;
+  padding-bottom:60px;
+  justify-content: center;
+  align-items: center;
+  font-style:italic;
+  font-size: 18px;
+  text-align:center;
+}
+
+#about{
+  color:#191919;
+  background-color:#F8F8F8;
+}
+
+.about-wrap{
+  display:flex;
+  flex-wrap: wrap;
+  margin-top:60px;
+}
+
+.about-item{
+  width:300px;
+  height:315px;
+  padding:35px 50px 50px;
+  text-align: center;
+  background-color:#FFF;
+}
+
+.about-item:nth-child(n+4):nth-child(-n+6){
+  margin-top:47px;
+}
+
+.about-title__title{
+  font-size: 22px;
+}
+
+.about-item__img img{
+  width:122px;
+  height:122px;
+  margin:20px 0 25px;
+}
+
+.about-item__desc{
+  font-size: 13px;
+}   
+
+.inner{
+  width:1100px;
+  padding:90px 0;
+  margin:0 auto;
+}
+
+#news{
+  width:100%;
+  background-image: url("/img/mozaiku.png");
+  background-size: cover;
+}
+
+.white-title{
+  /* width:150px; */
+  color:#fff;
+}
+
+.white-title::before{
+  content:"";
+  width: 30px;
+  margin-right:20px;
+  border-top:1px solid #fff;
+}
+
+.white-title::after{
+  content:"";
+  width: 30px;
+  margin-left: 20px;
+  border-top: 1px solid #fff;
+}
+
+.news-wrap{
+  display: flex;
+  justify-content: space-between;
+}
+
+.news-item{
+  width:336px;
+  margin-top:60px;
+  overflow: hidden; 
+}
+
+.news-img{
+ width:100%;
+ height:207px;
+}
+
+.news-img img{
+  width: 100%;
+  height: 100%;
+}
+
+.news-co{
+  padding: 20px;
+  background: #fff;
+}
+
+.news-date{
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.newstitle{
+  padding: 8px 0 20px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.news-desc{
+  font-size: 12px;
+}
+
+
